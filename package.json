@@ -1,0 +1,42 @@
+{
+  "name": "ipscend",
+  "version": "0.2.0",
+  "description": "Web Application publishing, simple and distributed with IPFS ",
+  "bin": {
+    "ipscend": "src/cli/bin.js"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diasdavid/ipscend.git"
+  },
+  "keywords": [
+    "IPFS"
+  ],
+  "author": "David Dias <daviddias@ipfs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diasdavid/ipscend/issues"
+  },
+  "homepage": "https://github.com/diasdavid/ipscend",
+  "dependencies": {
+    "asking": "^0.1.2",
+    "ipfs-api": "^11.0.1",
+    "ipfsd-ctl": "^0.17.0",
+    "ndjson-aggregator": "^0.1.2",
+    "node-static": "^0.7.7",
+    "open": "0.0.5",
+    "ronin": "^0.3.11",
+    "webshot": "^0.16.0"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.1.2",
+    "standard": "^8.4.0"
+  }
+}
