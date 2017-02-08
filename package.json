@@ -32,6 +32,7 @@
     "ndjson-aggregator": "^0.1.2",
     "node-static": "^0.7.7",
     "open": "0.0.5",
+    "opn": "^4.0.2",
     "ronin": "^0.3.11",
     "webshot": "^0.16.0"
   },
